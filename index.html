@@ -84,6 +84,12 @@
           </ul>
         </li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+
+          <li>
+            <button onclick="toggleDarkMode()" class="dark-mode-btn">
+              <i class="bi bi-moon"></i> Dark Mode
+            </button>
+          </li>
       </ul>
     </nav>
 
@@ -838,6 +844,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+        <script>
+      function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+      }
+      </script>
 
 </body>
 
